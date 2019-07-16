@@ -5501,7 +5501,23 @@ PrefabInstance:
       propertyPath: bpm
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114922439536235876, guid: 3ca1ad31993c2f34893b802d52cbabad,
+        type: 3}
+      propertyPath: level
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922439536235876, guid: 3ca1ad31993c2f34893b802d52cbabad,
+        type: 3}
+      propertyPath: timeMin
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 114922439536235876, guid: 3ca1ad31993c2f34893b802d52cbabad,
+        type: 3}
+      propertyPath: VarianteSeg
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114594729393725016, guid: 3ca1ad31993c2f34893b802d52cbabad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3ca1ad31993c2f34893b802d52cbabad, type: 3}
 --- !u!1001 &1174505978
 PrefabInstance:

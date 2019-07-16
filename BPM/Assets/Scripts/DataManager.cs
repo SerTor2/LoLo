@@ -37,7 +37,7 @@ public class DataManager : MonoBehaviour
         }
         else
         {
-            lifes = 3;
+            lifes = 10;
             for (int i = 0; i < maxLevels; i++)
                 starsLevels.Add(0);
         }

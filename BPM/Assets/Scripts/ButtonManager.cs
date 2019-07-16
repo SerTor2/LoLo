@@ -28,7 +28,7 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
-    public void GoToLevel(int _level)
+    public void GoToLevel(string _level)
     {
         if(dataManager.GetLifes() > 0)
             SceneManager.LoadScene(_level);
