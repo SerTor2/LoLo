@@ -36,11 +36,8 @@ public class Player : MonoBehaviour, IRestartGameElement
     private bool clear = false;
     public string nextScene;
 
-    private DataManager dataManager;
-
     private void Start()
     {
-        dataManager = GameObject.FindGameObjectWithTag("DataManager").GetComponent<DataManager>();
         lifesLevel = 3;
         mysound = GetComponent<AudioSource>();
         m_controller = Camera.main.GetComponent<GameController>();
@@ -266,7 +263,7 @@ public class Player : MonoBehaviour, IRestartGameElement
         }
         else
         {
-            dataManager.ModifyLifes(-1);
+            DataManager.dataManager.ModifyLifes(-1);
             SceneManager.LoadScene(nextScene);
         }
     }
